@@ -1,0 +1,168 @@
+/*
+ * Clases reutilizables para el proyecto
+ * (Aquí pueden ir las clases de tu grid)
+ */
+
+.mb-0 {
+  margin-bottom:0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.container {
+ width: 100%;
+
+ margin: 0px auto;
+}
+
+.row:before, .row:after {
+ content: " ";
+ display: table;
+}
+
+.row:after {
+ clear: both;
+}
+
+[class*="col-"] {
+ min-height: 7px;
+ padding: 12px;
+ float: left;
+}
+
+.col-1 {
+ /* (1/12) x 100% */
+ width: 8.333333%;
+}
+
+.col-2 {
+ /* (2/12) x 100% */
+ width: 16.66667%;
+}
+
+.col-3 {
+ /* (3/12) x 100% */
+ width: 25%;
+}
+
+.col-4 {
+ /* (4/12) x 100% */
+ width: 33.33333%;
+}
+
+.col-5 {
+ /* (5/12) x 100% */
+ width: 41.666667%;
+}
+
+.col-6 {
+ /* (6/12) x 100% */
+ width: 50%;
+}
+
+.col-7 {
+ /* (7/12) x 100% */
+ width: 58.333333%;
+}
+
+.col-8 {
+ /* (8/12) x 100% */
+ width: 66.6666667%;
+}
+
+.col-9 {
+ /* (9/12) x 100% */
+ width: 75%;
+}
+
+.col-10 {
+ /* (10/12) x 100% */
+ width: 83.333333%;
+}
+
+.col-11 {
+ /* (11/12) x 100% */
+ width: 91.6666%;
+}
+
+.col-12 {
+ /* (12/12) x 100% */
+ width: 100%;
+}
+#home{
+    background-image: url(../assets/images/bg-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 554px;
+    text-align: center;
+    /*margin-top: 80px;*/
+}
+#home .container{
+  color: white;
+  padding: 70px;
+}
+#home-rosa{
+    background-color: #E95853;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    text-align:center;
+  }
+  #home-rosa .container{
+    color: white;
+    padding: 40px;
+  }
+  #home-blanco{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:auto;
+      text-align:center;
+    }
+    #home-blanco .container{
+      color: black;
+      padding: 40px;
+    }
+.text-home{
+  font-size: 40px;
+  margin-top: 100px;
+}
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+.tamaño-services{
+  font-size: 40px;
+}
+.text-col{
+  text-align: center;
+}
+.espacio-row{
+  margin-bottom: 20px;
+}
+.modal {
+   display: none;
+   position: fixed;
+   background: rgba(0, 0, 0, 0.8);
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.cerrar{
+  
+}
